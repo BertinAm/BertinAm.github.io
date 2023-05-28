@@ -1,0 +1,171 @@
+/* Add your custom styles here */
+
+/* Global Styles */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #eeeeee;
+  background-color: #303841;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #00adb5;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #eeeeee;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00dee8;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #eeeeee;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: #00dee8;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #00adb5;
+    padding: 15px;
+    border-bottom: 1px solid #d4d4d4;
+  }
+}
+
+/* Hero Section */
+
+#hero {
+  background-color: #eeeeee;
+  color: #303841;
+  text-align: center;
+  padding: 60px 0;
+}
+
+#hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Projects Section */
+
+#projects {
+  background-color: #303841;
+  padding-bottom: 60px;
+}
+
+.project-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* About Section */
+
+#about {
+  background-color: #eeeeee;
+  color: #303841;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#about img {
+  margin-bottom: 30px;
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: #303841;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #eeeeee;
+  padding: 15px 0;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
