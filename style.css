@@ -141,17 +141,17 @@ p {
   color: #FFFFFF;
   font-size: 18px;
   text-decoration: none;
-  padding: 10px 20
+  padding: 10px 20 };
 
 
 /* About Section */
 
-/* About Section */
 
 #about {
-  background-color: black;
+  background-color: #55DDFC;
   color: #FFFFFF;
 }
+
 
 #about img {
   max-width: 100%;
